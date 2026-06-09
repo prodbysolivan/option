@@ -1,5 +1,5 @@
 {
-  "name": "@prodbysolivan/result",
+  "name": "@prodbysolivan/option",
   "description": "Nano-sized type-safe option utility for nullable operations.",
   "version": "1.0.0",
   "exports": "./source/index.ts",
