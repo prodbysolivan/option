@@ -28,16 +28,20 @@ deno add @prodbysolivan/option
 ```typescript
 import { isSome, none, Option, some } from "@prodbysolivan/option";
 
+// Function returning an optional value: a string if found, or none if not
 function findUser(id: number): Option<string> {
-  if (id === 0) return none();
-  return some("Ramses");
+  if (id === 0) return none(); // Returns an empty state
+  return some("Ramses");       // Returns a container wrapping the found value
 }
 
 const user = findUser(0);
 
+// Check if the container holds a value before accessing it
 if (isSome(user)) {
+  // In this block, the value is safe to use
   console.log(`User found: ${user.value}`);
 } else {
+  // Graceful handling of the case where no result was found
   console.error("User not found.");
 }
 ```
