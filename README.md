@@ -24,6 +24,8 @@ deno add @prodbysolivan/option
 ```
 
 ### Quick Usage
+Import the functions into your project:
+
 
 ```typescript
 import { isSome, none, Option, some } from "@prodbysolivan/option";
