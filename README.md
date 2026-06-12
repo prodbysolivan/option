@@ -1,5 +1,7 @@
 # Option
 
+![Deno](https://img.shields.io/badge/deno-1.40%2B-black?logo=deno) [![JSR](https://jsr.io/badges/@prodbysolivan/option)](https://jsr.io/@prodbysolivan/option) ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 > Nano-sized type-safe option utility for nullable operations.
 
 ## Description
